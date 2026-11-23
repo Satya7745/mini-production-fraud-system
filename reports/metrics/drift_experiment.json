@@ -1,0 +1,113 @@
+{
+  "natural_temporal_holdout": {
+    "critical_features": [
+      "V1",
+      "V3",
+      "V28",
+      "V11",
+      "V25",
+      "V12",
+      "V15"
+    ],
+    "warning_features": [
+      "V22",
+      "V5",
+      "V4",
+      "V23",
+      "V26",
+      "V24",
+      "V21",
+      "V14",
+      "V7"
+    ],
+    "top_5_by_psi": [
+      {
+        "feature": "V1",
+        "psi": 1.4632733012497914,
+        "ks_statistic": 0.356033380577909,
+        "ks_pvalue": 0.0
+      },
+      {
+        "feature": "V3",
+        "psi": 1.0652374972509164,
+        "ks_statistic": 0.4626797237556321,
+        "ks_pvalue": 0.0
+      },
+      {
+        "feature": "V28",
+        "psi": 0.7182338691267055,
+        "ks_statistic": 0.29966256122851576,
+        "ks_pvalue": 0.0
+      },
+      {
+        "feature": "V11",
+        "psi": 0.44577657606391774,
+        "ks_statistic": 0.190814893135126,
+        "ks_pvalue": 0.0
+      },
+      {
+        "feature": "V25",
+        "psi": 0.36293280771107755,
+        "ks_statistic": 0.2779811487812838,
+        "ks_pvalue": 0.0
+      }
+    ],
+    "note": "Time is monitored for range/monotonicity but excluded from drift paging because elapsed time must advance."
+  },
+  "injected_shift": {
+    "critical_features": [
+      "Amount",
+      "V14",
+      "V1",
+      "V3",
+      "V28",
+      "V11",
+      "V25",
+      "V12",
+      "V15"
+    ],
+    "warning_features": [
+      "V22",
+      "V5",
+      "V4",
+      "V23",
+      "V26",
+      "V24",
+      "V21",
+      "V7"
+    ],
+    "top_5_by_psi": [
+      {
+        "feature": "Amount",
+        "psi": 6.158709150085205,
+        "ks_statistic": 0.5285131057493776,
+        "ks_pvalue": 0.0
+      },
+      {
+        "feature": "V14",
+        "psi": 4.291829544605099,
+        "ks_statistic": 0.8232668770848124,
+        "ks_pvalue": 0.0
+      },
+      {
+        "feature": "V1",
+        "psi": 1.4632733012497914,
+        "ks_statistic": 0.356033380577909,
+        "ks_pvalue": 0.0
+      },
+      {
+        "feature": "V3",
+        "psi": 1.0652374972509164,
+        "ks_statistic": 0.4626797237556321,
+        "ks_pvalue": 0.0
+      },
+      {
+        "feature": "V28",
+        "psi": 0.7182338691267055,
+        "ks_statistic": 0.29966256122851576,
+        "ks_pvalue": 0.0
+      }
+    ],
+    "note": "Time is monitored for range/monotonicity but excluded from drift paging because elapsed time must advance."
+  }
+}

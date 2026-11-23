@@ -1,0 +1,37 @@
+{
+  "raw_rows": 284807,
+  "deduplicated_rows": 283726,
+  "feature_duplicates_removed": 1081,
+  "train_cutoff_seconds": 120393.0,
+  "validation_cutoff_seconds": 145234.0,
+  "partitions": {
+    "train": {
+      "rows": 170236,
+      "fraud_count": 342,
+      "fraud_rate": 0.002008975774806739,
+      "time_min": 0.0,
+      "time_max": 120393.0
+    },
+    "validation": {
+      "rows": 56746,
+      "fraud_count": 57,
+      "fraud_rate": 0.0010044760864201883,
+      "time_min": 120394.0,
+      "time_max": 145234.0
+    },
+    "test": {
+      "rows": 56744,
+      "fraud_count": 74,
+      "fraud_rate": 0.0013041026364020865,
+      "time_min": 145235.0,
+      "time_max": 172792.0
+    }
+  },
+  "cross_partition_feature_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "target_used_for_cutoffs": false,
+  "preprocessing_fit_scope": "train_only"
+}

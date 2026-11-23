@@ -1,0 +1,26 @@
+{
+  "benchmark": {
+    "requests": 1200,
+    "errors": 0,
+    "error_rate": 0.0,
+    "p50_ms": 433.667279,
+    "p95_ms": 636.35396515,
+    "p99_ms": 728.9520316200001,
+    "mean_ms": 434.20909009666667,
+    "max_ms": 927.08354,
+    "wall_seconds": 65.20867384400003,
+    "throughput_requests_per_second": 18.40245981494399
+  },
+  "configuration": {
+    "base_url": "http://127.0.0.1:8000",
+    "warmup_requests": 100,
+    "measured_requests": 1200,
+    "concurrency": 8,
+    "protocol_path": "HTTP POST /predict through running Uvicorn"
+  },
+  "environment": {
+    "python": "3.12.16",
+    "platform": "Linux-6.1.146.1-microsoft-standard-x86_64-with-glibc2.38",
+    "processor": "x86_64"
+  }
+}
